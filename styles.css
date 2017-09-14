@@ -1,0 +1,47 @@
+* {
+  border: 1px solid red;
+}
+
+body {
+  overflow: scroll;
+}
+
+div.section {
+  height: 100vh;
+  position: relative;
+}
+
+div.left-option {
+  display: inline-block;
+  width: 10vw;
+  text-align: right;
+  padding: 8px;
+}
+
+div.right-option {
+  display: inline-block;
+  width: 60vw;
+}
+
+div.border {
+  border: 1px solid black;
+}
+
+div.navigation-container {
+  position: absolute;
+  bottom: 40px;
+  width: 100vw;
+}
+div.navigation-down, div.navigation-container-up {
+  margin: 0 auto;
+  width: 30vw;
+  text-align: center;
+}
+div.navigation-up div:nth-child(2){
+  padding: 10px 0 40px;
+}
+
+div.navigation-down div:nth-child(1){
+  padding: 10px 0;
+}
+
